@@ -19,16 +19,33 @@
         "web-vitals": "^1.0.1"
       }
     },
-    "node_modules/@babel/code-frame": {
-      "version": "7.12.13",
-      "resolved": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.12.13.tgz",
-      "integrity": "sha512-HV1Cm0Q3ZrpCR93tkWOYiuYIgLxZXZFVG2VgK+MBWjUqZTundupbfx2aXarXuw5Ko5aMcjtJgbSs4vUGBS5v6g==",
-      "dependencies": {
-        "@babel/highlight": "^7.12.13"
-      }
-    },
-    "node_modules/@babel/compat-data": {
-      "version": "7.12.13",
-      "resolved": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.12.13.tgz",
-      "integrity": "sha512-U/hshG5R+SIoW7HVWIdmy1cB7s3ki+r3FpyEZiCgpi4tFgPnX/vynY80ZGSASOIrUM6O7VxOgCZgdt7h97bUGg=="
-    },
+DEF Static_Objects Transform {
+  children [
+    Transform {
+      translation -48 0 -62
+      children DEF AH3_Portal Shape {
+        appearance Appearance {
+          textureTransform TextureTransform {
+            scale 1 1.1
+          }
+          texture ImageTexture {
+            url "texture/AH3_Portal.jpg" 
+          }
+        }
+        geometry IndexedFaceSet {
+          solid FALSE
+          coordIndex [
+            0, 1, 15, 14, -1, 
+            1, 2, 16, 15, -1, 
+            2, 3, 17, 16, -1, 
+            3, 4, 18, 17, -1, 
+            4, 5, 19, 18, -1, 
+            5, 6, 20, 19, -1, 
+            6, 7, 21, 20, -1, 
+            7, 8, 22, 21, -1, 
+            8, 9, 23, 22, -1, 
+            9, 10, 24, 23, -1, 
+            10, 11, 25, 24, -1, 
+            11, 12, 26, 25, -1, 
+            12, 13, 27, 26, -1 
+          ]
